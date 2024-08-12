@@ -1,0 +1,70 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f4f4f4; /* Light background color for the whole app */
+}
+
+/* Wrapper for navigation */
+.nav-container {
+  background-color: #4caf50; /* Green background for the navigation box */
+  border-radius: 8px; /* Rounded corners for the box */
+  padding: 10px; /* Padding around the navigation items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px; /* Margin around the box */
+}
+
+/* Navigation styles */
+nav {
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: space-around; 
+  padding-top: 80px;
+  /* Space between links */
+}
+
+nav a {
+  color: black; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold links for emphasis */
+  padding: 15px 15px; /* Padding for links to make them look like buttons */
+  border-radius: 4px; /* Rounded corners for links */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+  background-color: #45a049;
+}
+
+
+h1 {
+  color: #333; /* Dark color for the heading */
+  text-align: center; /* Center the heading */
+  margin-top: 200px; /* Spacing above the heading */
+}
+
+p {
+  text-align: center; /* Center the paragraph text */
+  color: #666; /* Dark gray color for the paragraph */
+  margin: 10px 0; /* Spacing above and below the paragraph */
+}
+
+/* Styles for the welcome section and buttons */
+.welcome {
+  text-align: center; /* Center-align text */
+  margin: 40px 0; /* Spacing above and below the welcome section */
+}
+
+.nav-buttons {
+  margin-top: 20px; /* Spacing above the buttons */
+ 
+}
+
+.nav-button {
+  display: inline-block; /* Allows padding and margin to take effect */
+  padding: 10px 15px; /* Padding for the buttons */
+  background-color: #4caf50; /* Green background for buttons */
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+  margin: 0 10px; /* Spacing between buttons */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+

@@ -1,0 +1,62 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px; /* Spacing around content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 600px; /* Max width for the dashboard */
+    margin: 20px auto; /* Center the dashboard */
+  }
+  
+  .dashboard h2 {
+    color: #333; /* Dark text color for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  .dashboard form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  .dashboard label {
+    margin-bottom: 15px; /* Spacing below each label */
+    font-weight: bold; /* Bold labels for better readability */
+  }
+  
+  .dashboard input[type="text"],
+  .dashboard input[type="number"] {
+    padding: 10px; /* Spacing inside input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Increase font size for readability */
+  }
+  
+  .dashboard input[type="checkbox"] {
+    margin-left: 10px; /* Space to the left of checkbox */
+  }
+  
+  .dashboard button {
+    padding: 10px 15px; /* Spacing inside the button */
+    background-color: #4caf50; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .dashboard button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .dashboard a {
+    margin-top: 20px; /* Spacing above the link */
+    color: #2196f3; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .dashboard a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  
